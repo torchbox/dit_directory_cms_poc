@@ -2,31 +2,31 @@ FROM python:3.5-alpine
 
 ADD requirements/ /requirements/
 RUN set -ex \
-	&& apk add --no-cache --virtual .build-deps \
-		gcc \
-		g++ \
-		make \
-		libc-dev \
-		musl-dev \
-		linux-headers \
-		pcre-dev \
-		postgresql-dev \
-		libjpeg-turbo-dev \
-		zlib-dev \
-		git \
-	&& pyvenv /venv \
-	&& /venv/bin/pip install -U pip \
-	&& LIBRARY_PATH=/lib:/usr/lib /bin/sh -c "/venv/bin/pip install -r /requirements/production.txt" \
-	&& runDeps="$( \
-		scanelf --needed --nobanner --recursive /venv \
-			| awk '{ gsub(/,/, "\nso:", $2); print "so:" $2 }' \
-			| sort -u \
-			| xargs -r apk info --installed \
-			| sort -u \
-	)" \
-	&& apk add --virtual .python-rundeps $runDeps \
-	&& apk del .build-deps \
-	&& apk add libjpeg-turbo pcre
+    && apk add --no-cache --virtual .build-deps \
+    gcc \
+    g++ \
+    make \
+    libc-dev \
+    musl-dev \
+    linux-headers \
+    pcre-dev \
+    postgresql-dev \
+    libjpeg-turbo-dev \
+    zlib-dev \
+    git \
+    && pyvenv /venv \
+    && /venv/bin/pip install -U pip \
+    && LIBRARY_PATH=/lib:/usr/lib /bin/sh -c "/venv/bin/pip install -r /requirements/production.txt" \
+    && runDeps="$( \
+    scanelf --needed --nobanner --recursive /venv \
+    | awk '{ gsub(/,/, "\nso:", $2); print "so:" $2 }' \
+    | sort -u \
+    | xargs -r apk info --installed \
+    | sort -u \
+    )" \
+    && apk add --virtual .python-rundeps $runDeps \
+    && apk del .build-deps \
+    && apk add libjpeg-turbo pcre
 RUN apk add --no-cache postgresql-client
 RUN mkdir /code/
 WORKDIR /code/
@@ -46,5 +46,4 @@ RUN DATABASE_URL=postgres://none REDIS_URL=none /venv/bin/python manage.py colle
 RUN chown -R 1000:2000 /code/bakerydemo/media
 
 # start uWSGI, using a wrapper script to allow us to easily add more commands to container startup:
-ENTRYPOINT ["/code/docker-entrypoint.sh"]
 CMD ["/venv/bin/uwsgi", "--http-auto-chunked", "--http-keepalive", "--static-map", "/media/=/code/bakerydemo/media/"]
