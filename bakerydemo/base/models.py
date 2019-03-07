@@ -14,6 +14,7 @@ from wagtail.admin.edit_handlers import (
     StreamFieldPanel,
 )
 from wagtail.core.fields import RichTextField, StreamField
+from richtext_poc.model_fields import MarkdownField
 from wagtail.core.models import Collection, Page
 from wagtail.contrib.forms.models import AbstractEmailForm, AbstractFormField
 from wagtail.images.edit_handlers import ImageChooserPanel
@@ -167,6 +168,9 @@ class HomePage(Page):
         help_text="Choose a page to link to for the Call to Action",
     )
 
+    markdown_body = MarkdownField(blank=True)
+    richtext_body = RichTextField(blank=True)
+
     # Body section of the HomePage
     body = StreamField(BaseStreamBlock(), verbose_name="Home content block", blank=True)
 
@@ -264,6 +268,8 @@ class HomePage(Page):
             ],
             heading="Promo section",
         ),
+        FieldPanel("markdown_body"),
+        FieldPanel("richtext_body"),
         StreamFieldPanel("body"),
         MultiFieldPanel(
             [

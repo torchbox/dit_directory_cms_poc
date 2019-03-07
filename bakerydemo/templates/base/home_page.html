@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load wagtailimages_tags wagtailcore_tags %}
+{% load markdown_tags %}
 
 {% block content %}
 <div class="homepage">
@@ -61,6 +62,10 @@
         </div>
     </div>
 </div>
+
+{{ page.markdown_body|render_markdown }}
+
+{{ page.richtext_body|richtext }}
 
 {% if page.body %}
 <div class="container-fluid streamfield">
