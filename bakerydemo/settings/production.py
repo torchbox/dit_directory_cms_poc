@@ -7,6 +7,8 @@ import django_cache_url
 
 from .base import *
 
+env = os.environ.copy()
+
 DEBUG = os.getenv("DJANGO_DEBUG", "off") == "on"
 
 # DJANGO_SECRET_KEY *should* be specified in the environment. If it's not, generate an ephemeral key.
@@ -93,6 +95,31 @@ if ELASTICSEARCH_ENDPOINT:
             aws_host=ELASTICSEARCH_ENDPOINT, aws_region=AWS_REGION, aws_service="es"
         )
 
+# Basic authentication settings
+# These are settings to configure the third-party library:
+# https://gitlab.com/tmkn/django-basic-auth-ip-whitelist
+if env.get("BASIC_AUTH_ENABLED", "false").lower().strip() == "true":
+    # Insert basic auth as a first middleware to be checked first, before
+    # anything else.
+    MIDDLEWARE.insert(0, "baipw.middleware.BasicAuthIPWhitelistMiddleware")
+
+    # This is the credentials users will have to use to access the site.
+    BASIC_AUTH_LOGIN = env.get("BASIC_AUTH_LOGIN")
+    BASIC_AUTH_PASSWORD = env.get("BASIC_AUTH_PASSWORD")
+
+    # This is the list of network IP addresses that are allowed in without
+    # basic authentication check.
+    if "BASIC_AUTH_WHITELISTED_IP_NETWORKS" in env:
+        BASIC_AUTH_WHITELISTED_IP_NETWORKS = env[
+            "BASIC_AUTH_WHITELISTED_IP_NETWORKS"
+        ].split(",")
+
+    # This is the list of hosts that website can be accessed without basic auth check.
+    if "BASIC_AUTH_WHITELISTED_HTTP_HOSTS" in env:
+        BASIC_AUTH_WHITELISTED_HTTP_HOSTS = env[
+            "BASIC_AUTH_WHITELISTED_HTTP_HOSTS"
+        ].split(",")
+
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
 
@@ -106,7 +133,7 @@ if "AWS_STORAGE_BUCKET_NAME" in os.environ:
 
     INSTALLED_APPS.append("storages")
     MEDIA_URL = "https://%s/" % AWS_S3_CUSTOM_DOMAIN
-    DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+    DEFAULT_FILE_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
 
 LOGGING = {
     "version": 1,
