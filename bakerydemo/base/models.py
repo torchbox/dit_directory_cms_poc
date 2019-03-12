@@ -18,6 +18,7 @@ from richtext_poc.model_fields import MarkdownField
 from wagtail.core.models import Collection, Page
 from wagtail.contrib.forms.models import AbstractEmailForm, AbstractFormField
 from wagtail.images.edit_handlers import ImageChooserPanel
+from wagtail.admin.edit_handlers import HelpPanel
 from wagtail.search import index
 from wagtail.snippets.models import register_snippet
 
@@ -168,8 +169,8 @@ class HomePage(Page):
         help_text="Choose a page to link to for the Call to Action",
     )
 
-    markdown_body = MarkdownField(blank=True)
-    richtext_body = RichTextField(blank=True)
+    markdown_body = MarkdownField(blank=True, help_text="This is help text for a field")
+    richtext_body = RichTextField(blank=True, help_text="This is help text for a field")
 
     # Body section of the HomePage
     body = StreamField(BaseStreamBlock(), verbose_name="Home content block", blank=True)
@@ -270,7 +271,11 @@ class HomePage(Page):
         ),
         FieldPanel("markdown_body"),
         FieldPanel("richtext_body"),
+        HelpPanel(
+            "This is HelpPanel. It can be used to add arbitrary content in the admin UI. <a href='https://www.example.com/'>Completely arbitrary</a>."
+        ),
         StreamFieldPanel("body"),
+        HelpPanel(content="HelpPanel can have a heading.", heading="That's a heading"),
         MultiFieldPanel(
             [
                 MultiFieldPanel(
@@ -294,6 +299,7 @@ class HomePage(Page):
             ],
             heading="Featured homepage sections",
             classname="collapsible",
+            help_text="Help text for the MultiFieldPanel",
         ),
     ]
 
