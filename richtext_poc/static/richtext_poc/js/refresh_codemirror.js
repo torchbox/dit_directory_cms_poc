@@ -1,3 +1,5 @@
+// Extracted from simplemde source:
+// https://github.com/sparksuite/simplemde-markdown-editor/blob/6abda7ab68cc20f4aca870eb243747951b90ab04/src/js/simplemde.js#L791-L822
 function _replaceSelection(cm, active, startEnd, url) {
     if (
         /editor-preview-active/.test(cm.getWrapperElement().lastChild.className)
@@ -30,44 +32,56 @@ function _replaceSelection(cm, active, startEnd, url) {
         }
     }
     cm.setSelection(startPoint, endPoint);
+    // Not entirely sure why this is necessary! Prevents a stacktrace from jQuery when putting focus back into the editor.
     setTimeout(() => {
         cm.focus();
     }, 1);
 }
 
-const realPrompt = window.prompt;
-function openLinkChooser(mde, text) {
-    if (text === 'URL for the link:') {
-        const workflow = window.ModalWorkflow({
-            url: window.chooserUrls.pageChooser,
-            urlParams: {
-                page_type: 'wagtailcore.page',
-                allow_external_link: true,
-                allow_email_link: true,
-                link_text: '',
-            },
-            onload: window.PAGE_CHOOSER_MODAL_ONLOAD_HANDLERS,
-            responses: {
-                pageChosen: (data) => {
-                    const isPage = !!data.id;
-                    const href = isPage ? `slug:${data.slug}` : data.url;
+const windowPrompt = window.prompt;
 
-                    _replaceSelection(
-                        mde.codemirror,
-                        mde.getState().link,
-                        ['[', '](#url#)'],
-                        href,
-                    );
-                    workflow.close();
-                },
-            },
-            onError: () => {
-                window.alert('Error');
-            },
-        });
-        return '';
+const OVERRIDE_TEXT = 'windowPromptOverride';
+
+const windowPromptOverride = (callback, text) => {
+    const shouldOverride = text === OVERRIDE_TEXT;
+
+    if (shouldOverride) {
+        callback();
+    } else {
+        return windowPrompt(text);
     }
-    return realPrompt(text);
+}
+
+function openLinkChooser(mde) {
+    const workflow = window.ModalWorkflow({
+        url: window.chooserUrls.pageChooser,
+        urlParams: {
+            page_type: 'wagtailcore.page',
+            allow_external_link: true,
+            allow_email_link: true,
+            // TODO Could be nice to implement this.
+            link_text: '',
+        },
+        onload: window.PAGE_CHOOSER_MODAL_ONLOAD_HANDLERS,
+        responses: {
+            pageChosen: (data) => {
+                const isPage = !!data.id;
+                const href = isPage ? `slug:${data.slug}` : data.url;
+
+                _replaceSelection(
+                    mde.codemirror,
+                    mde.getState().link,
+                    ['[', '](#url#)'],
+                    href,
+                );
+                workflow.close();
+            },
+        },
+        // TODO Add basic error handling.
+        onError: () => {
+            window.alert('Error');
+        },
+    });
 }
 
 function simplemdeAttach(id) {
@@ -76,13 +90,17 @@ function simplemdeAttach(id) {
         promptURLs: true,
         autofocus: false,
     });
+    mde.options.promptTexts = {
+        link: OVERRIDE_TEXT,
+    };
     mde.render();
 
     mde.codemirror.on('change', function() {
         $('#' + id).val(mde.value());
     });
 
-    window.prompt = openLinkChooser.bind(null, mde);
+    // TODO Make sure this is compatible with multiple instances of SimpleMDE on the page.
+    window.prompt = windowPromptOverride.bind(null, openLinkChooser.bind(null, mde));
 }
 
 // Refresh the markdown entry field when the tab buttons are clicked.
