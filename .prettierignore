@@ -2,7 +2,6 @@ node_modules
 *.min.js
 coverage/
 dist/
+static/
 *.bundle.js
-*.json
-*.css
 *.html
