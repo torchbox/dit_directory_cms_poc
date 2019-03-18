@@ -171,6 +171,9 @@ class HomePage(Page):
 
     markdown_body = MarkdownField(blank=True, help_text="This is help text for a field")
     richtext_body = RichTextField(blank=True, help_text="This is help text for a field")
+    richtext_restricted_body = RichTextField(
+        blank=True, features=["bold", "italic", "link", "document", "document-link"]
+    )
 
     # Body section of the HomePage
     body = StreamField(BaseStreamBlock(), verbose_name="Home content block", blank=True)
@@ -271,6 +274,7 @@ class HomePage(Page):
         ),
         FieldPanel("markdown_body"),
         FieldPanel("richtext_body"),
+        FieldPanel("richtext_restricted_body"),
         HelpPanel(
             "This is HelpPanel. It can be used to add arbitrary content in the admin UI. <a href='https://www.example.com/'>Completely arbitrary</a>."
         ),
