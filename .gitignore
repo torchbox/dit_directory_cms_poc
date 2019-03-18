@@ -20,3 +20,6 @@ __pycache__
 .venv
 .vscode
 node_modules
+*.bundle.js
+*.bundle.js.map
+webpack-stats.html
