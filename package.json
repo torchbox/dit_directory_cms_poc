@@ -14,7 +14,9 @@
     "url": "https://github.com/torchbox/dit_directory_cms_poc/issues"
   },
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "simplemde": "^1.11.2"
+  },
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "@babel/preset-env": "^7.3.4",
