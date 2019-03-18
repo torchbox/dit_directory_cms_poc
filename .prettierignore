@@ -5,3 +5,4 @@ dist/
 static/
 *.bundle.js
 *.html
+.venv

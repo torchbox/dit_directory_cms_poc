@@ -1,1 +1,1 @@
-console.log('richtext_poc');
+console.log("richtext_poc");
