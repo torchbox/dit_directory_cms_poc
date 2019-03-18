@@ -30,7 +30,9 @@ function _replaceSelection(cm, active, startEnd, url) {
         }
     }
     cm.setSelection(startPoint, endPoint);
-    cm.focus();
+    setTimeout(() => {
+        cm.focus();
+    }, 1);
 }
 
 const realPrompt = window.prompt;
@@ -47,12 +49,14 @@ function openLinkChooser(mde, text) {
             onload: window.PAGE_CHOOSER_MODAL_ONLOAD_HANDLERS,
             responses: {
                 pageChosen: (data) => {
-                    console.log(data);
+                    const isPage = !!data.id;
+                    const href = isPage ? `slug:${data.slug}` : data.url;
+
                     _replaceSelection(
                         mde.codemirror,
                         mde.getState().link,
                         ['[', '](#url#)'],
-                        `slug:${data.id || data.url}`,
+                        href,
                     );
                     workflow.close();
                 },
