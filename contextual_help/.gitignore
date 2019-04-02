@@ -1,0 +1,5 @@
+staging-redux-state.json
+cms-pages.json
+*.csv
+screenshots.json
+backstop/engine_scripts/cookies.json

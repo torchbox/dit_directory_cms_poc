@@ -1,0 +1,5163 @@
+{
+  "find_a_supplier.IndustryPage": [
+    {
+      "name": "find_a_supplier.IndustryPage.hero_image",
+      "verbose_name": "Hero image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryPage.mobile_hero_image",
+      "verbose_name": "Mobile hero image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryPage.hero_image_caption",
+      "verbose_name": "Hero image caption",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryPage.summary_image",
+      "verbose_name": "Summary image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryPage.hero_text",
+      "verbose_name": "Hero text",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryPage.introduction_text",
+      "verbose_name": "Contact us text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryPage.introduction_call_to_action_button_text",
+      "verbose_name": "Contact us button text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryPage.introduction_title",
+      "verbose_name": "Introduction title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryPage.introduction_column_one_text",
+      "verbose_name": "Introduction column one text",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryPage.introduction_column_two_text",
+      "verbose_name": "Introduction column two text",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryPage.introduction_column_three_text",
+      "verbose_name": "Introduction column three text",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryPage.introduction_column_one_icon",
+      "verbose_name": "Column one image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryPage.introduction_column_two_icon",
+      "verbose_name": "Column two image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryPage.introduction_column_three_icon",
+      "verbose_name": "Column three image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryPage.breadcrumbs_label",
+      "verbose_name": "Breadcrumbs label",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryPage.search_filter_sector",
+      "verbose_name": "Sector filter",
+      "type": "core.models.ChoiceArrayField",
+      "help_text": "Limit to companies within these sectors."
+    },
+    {
+      "name": "find_a_supplier.IndustryPage.search_filter_text",
+      "verbose_name": "Profile text filter",
+      "type": "django.db.models.fields.CharField",
+      "help_text": "Limit to companies that contain this term in their profile."
+    },
+    {
+      "name": "find_a_supplier.IndustryPage.search_filter_showcase_only",
+      "verbose_name": "Whitelisted companies filter",
+      "type": "django.db.models.fields.BooleanField",
+      "help_text": "Limit to companies that have explicitly been whitelisted."
+    },
+    {
+      "name": "find_a_supplier.IndustryPage.company_list_text",
+      "verbose_name": "Company list text",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryPage.company_list_search_input_placeholder_text",
+      "verbose_name": "Company list search input placeholder text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryPage.company_list_call_to_action_text",
+      "verbose_name": "Company list call to action text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryPage.show_on_homepage",
+      "verbose_name": "Show on homepage",
+      "type": "django.db.models.fields.BooleanField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryPage.show_on_industries_showcase_page",
+      "verbose_name": "Show on industries showcase page",
+      "type": "django.db.models.fields.BooleanField",
+      "help_text": ""
+    }
+  ],
+  "find_a_supplier.LandingPage": [
+    {
+      "name": "find_a_supplier.LandingPage.hero_image",
+      "verbose_name": "Hero image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.LandingPage.mobile_hero_image",
+      "verbose_name": "Mobile hero image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.LandingPage.hero_image_caption",
+      "verbose_name": "Hero image caption",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.LandingPage.breadcrumbs_label",
+      "verbose_name": "Breadcrumbs label",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.LandingPage.hero_text",
+      "verbose_name": "Hero text",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.LandingPage.search_field_placeholder",
+      "verbose_name": "Search field placeholder",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.LandingPage.search_button_text",
+      "verbose_name": "Search button text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.LandingPage.proposition_text",
+      "verbose_name": "Proposition text",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.LandingPage.call_to_action_text",
+      "verbose_name": "Call to action text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.LandingPage.industries_list_text",
+      "verbose_name": "Industries list text",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.LandingPage.industries_list_call_to_action_text",
+      "verbose_name": "Industries list call to action text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.LandingPage.services_list_text",
+      "verbose_name": "Services list text",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.LandingPage.services_column_one",
+      "verbose_name": "Services column one",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.LandingPage.services_column_two",
+      "verbose_name": "Services column two",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.LandingPage.services_column_three",
+      "verbose_name": "Services column three",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.LandingPage.services_column_four",
+      "verbose_name": "Services column four",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.LandingPage.services_column_one_icon",
+      "verbose_name": "Services column one icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.LandingPage.services_column_two_icon",
+      "verbose_name": "Services column two icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.LandingPage.services_column_three_icon",
+      "verbose_name": "Services column three icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.LandingPage.services_column_four_icon",
+      "verbose_name": "Services column four icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.LandingPage.breadcrumb",
+      "verbose_name": "Breadcrumb",
+      "type": "django.contrib.contenttypes.fields.GenericRelation",
+      "help_text": ""
+    }
+  ],
+  "find_a_supplier.IndustryLandingPage": [
+    {
+      "name": "find_a_supplier.IndustryLandingPage.hero_image",
+      "verbose_name": "Hero image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryLandingPage.mobile_hero_image",
+      "verbose_name": "Mobile hero image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryLandingPage.hero_image_caption",
+      "verbose_name": "Hero image caption",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryLandingPage.breadcrumbs_label",
+      "verbose_name": "Breadcrumbs label",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryLandingPage.hero_title",
+      "verbose_name": "Hero title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryLandingPage.proposition_text",
+      "verbose_name": "Proposition text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryLandingPage.call_to_action_text",
+      "verbose_name": "Call to action text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryLandingPage.more_industries_title",
+      "verbose_name": "More industries title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryLandingPage.breadcrumb",
+      "verbose_name": "Breadcrumb",
+      "type": "django.contrib.contenttypes.fields.GenericRelation",
+      "help_text": ""
+    }
+  ],
+  "find_a_supplier.IndustryArticlePage": [
+    {
+      "name": "find_a_supplier.IndustryArticlePage.breadcrumbs_label",
+      "verbose_name": "Breadcrumbs label",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryArticlePage.introduction_title",
+      "verbose_name": "Introduction title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryArticlePage.body",
+      "verbose_name": "Body",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryArticlePage.author_name",
+      "verbose_name": "Author name",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryArticlePage.job_title",
+      "verbose_name": "Job title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryArticlePage.proposition_text",
+      "verbose_name": "Proposition text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryArticlePage.call_to_action_text",
+      "verbose_name": "Call to action text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryArticlePage.show_table_of_content",
+      "verbose_name": "Show table of content",
+      "type": "django.db.models.fields.BooleanField",
+      "help_text": "Any H2 in the body will be listed in the table of content. Allows users to click to go to sections of the page. Useful for long articles."
+    },
+    {
+      "name": "find_a_supplier.IndustryArticlePage.back_to_home_link_text",
+      "verbose_name": "Back to home link text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryArticlePage.social_share_title",
+      "verbose_name": "Social share title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryArticlePage.date",
+      "verbose_name": "Date",
+      "type": "django.db.models.fields.DateField",
+      "help_text": ""
+    }
+  ],
+  "export_readiness.ExportReadinessApp": [],
+  "find_a_supplier.FindASupplierApp": [],
+  "export_readiness.PrivacyAndCookiesPage": [
+    {
+      "name": "export_readiness.PrivacyAndCookiesPage.body",
+      "verbose_name": "Body",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    }
+  ],
+  "find_a_supplier.IndustryContactPage": [
+    {
+      "name": "find_a_supplier.IndustryContactPage.breadcrumbs_label",
+      "verbose_name": "Breadcrumbs label",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryContactPage.introduction_text",
+      "verbose_name": "Introduction text",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryContactPage.submit_button_text",
+      "verbose_name": "Submit button text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryContactPage.success_message_text",
+      "verbose_name": "Success message text",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryContactPage.success_back_link_text",
+      "verbose_name": "Success back link text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "find_a_supplier.IndustryContactPage.breadcrumb",
+      "verbose_name": "Breadcrumb",
+      "type": "django.contrib.contenttypes.fields.GenericRelation",
+      "help_text": ""
+    }
+  ],
+  "export_readiness.TermsAndConditionsPage": [
+    {
+      "name": "export_readiness.TermsAndConditionsPage.body",
+      "verbose_name": "Body",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    }
+  ],
+  "export_readiness.PerformanceDashboardPage": [
+    {
+      "name": "export_readiness.PerformanceDashboardPage.heading",
+      "verbose_name": "Heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.PerformanceDashboardPage.description",
+      "verbose_name": "Description",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.PerformanceDashboardPage.data_title_row_one",
+      "verbose_name": "Data title row one",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.PerformanceDashboardPage.data_number_row_one",
+      "verbose_name": "Data number row one",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.PerformanceDashboardPage.data_period_row_one",
+      "verbose_name": "Data period row one",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.PerformanceDashboardPage.data_description_row_one",
+      "verbose_name": "Data description row one",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.PerformanceDashboardPage.data_title_row_two",
+      "verbose_name": "Data title row two",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.PerformanceDashboardPage.data_number_row_two",
+      "verbose_name": "Data number row two",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.PerformanceDashboardPage.data_period_row_two",
+      "verbose_name": "Data period row two",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.PerformanceDashboardPage.data_description_row_two",
+      "verbose_name": "Data description row two",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.PerformanceDashboardPage.data_title_row_three",
+      "verbose_name": "Data title row three",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.PerformanceDashboardPage.data_number_row_three",
+      "verbose_name": "Data number row three",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.PerformanceDashboardPage.data_period_row_three",
+      "verbose_name": "Data period row three",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.PerformanceDashboardPage.data_description_row_three",
+      "verbose_name": "Data description row three",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.PerformanceDashboardPage.data_title_row_four",
+      "verbose_name": "Data title row four",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.PerformanceDashboardPage.data_number_row_four",
+      "verbose_name": "Data number row four",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.PerformanceDashboardPage.data_period_row_four",
+      "verbose_name": "Data period row four",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.PerformanceDashboardPage.data_description_row_four",
+      "verbose_name": "Data description row four",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.PerformanceDashboardPage.guidance_notes",
+      "verbose_name": "Guidance notes",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.PerformanceDashboardPage.landing_dashboard",
+      "verbose_name": "Landing dashboard",
+      "type": "django.db.models.fields.BooleanField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.PerformanceDashboardPage.product_link",
+      "verbose_name": "Product link",
+      "type": "django.db.models.fields.TextField",
+      "help_text": "The slug and page heading are inferred from the product link"
+    }
+  ],
+  "export_readiness.PerformanceDashboardNotesPage": [
+    {
+      "name": "export_readiness.PerformanceDashboardNotesPage.body",
+      "verbose_name": "Body",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": "Please include an h1 in this field e.g. # Heading level 1"
+    }
+  ],
+  "invest.InvestApp": [],
+  "invest.InvestHomePage": [
+    {
+      "name": "invest.InvestHomePage.breadcrumbs_label",
+      "verbose_name": "Breadcrumbs label",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.heading",
+      "verbose_name": "Heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.sub_heading",
+      "verbose_name": "Sub heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.hero_call_to_action_text",
+      "verbose_name": "Hero call to action text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.hero_image",
+      "verbose_name": "Hero image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.benefits_section_title",
+      "verbose_name": "Benefits section title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.benefits_section_intro",
+      "verbose_name": "Benefits section intro",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.benefits_section_content",
+      "verbose_name": "Benefits section content",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.benefits_section_img",
+      "verbose_name": "Benefits section image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.benefits_section_img_caption",
+      "verbose_name": "Benefits section image caption",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.eu_exit_section_title",
+      "verbose_name": "Eu exit section title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.eu_exit_section_content",
+      "verbose_name": "Eu exit section content",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.eu_exit_section_call_to_action_text",
+      "verbose_name": "Eu exit section button text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.eu_exit_section_img",
+      "verbose_name": "Eu exit section image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.eu_exit_section_img_caption",
+      "verbose_name": "Eu exit section image caption",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.subsection_title_one",
+      "verbose_name": "Subsection title one",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.subsection_content_one",
+      "verbose_name": "Subsection content one",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.subsection_title_two",
+      "verbose_name": "Subsection title two",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.subsection_content_two",
+      "verbose_name": "Subsection content two",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.subsection_title_three",
+      "verbose_name": "Subsection title three",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.subsection_content_three",
+      "verbose_name": "Subsection content three",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.subsection_title_four",
+      "verbose_name": "Subsection title four",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.subsection_content_four",
+      "verbose_name": "Subsection content four",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.subsection_title_five",
+      "verbose_name": "Subsection title five",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.subsection_content_five",
+      "verbose_name": "Subsection content five",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.subsection_title_six",
+      "verbose_name": "Subsection title six",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.subsection_content_six",
+      "verbose_name": "Subsection content six",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.subsection_title_seven",
+      "verbose_name": "Subsection title seven",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.subsection_content_seven",
+      "verbose_name": "Subsection content seven",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.sector_title",
+      "verbose_name": "Sector title",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.sector_button_text",
+      "verbose_name": "Sector button text",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.sector_intro",
+      "verbose_name": "Sector intro",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.hpo_title",
+      "verbose_name": "High potential opportunity section title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.hpo_intro",
+      "verbose_name": "High potential opportunity section intro",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.setup_guide_title",
+      "verbose_name": "Setup guide title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.setup_guide_lead_in",
+      "verbose_name": "Setup guide lead in",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.setup_guide_content",
+      "verbose_name": "Setup guide content",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.setup_guide_img",
+      "verbose_name": "Setup guide image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.setup_guide_img_caption",
+      "verbose_name": "Setup guide image caption",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.setup_guide_call_to_action_text",
+      "verbose_name": "Setup guide call to action text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.how_we_help_title",
+      "verbose_name": "How we help title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.how_we_help_lead_in",
+      "verbose_name": "How we help lead in",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.how_we_help_text_one",
+      "verbose_name": "How we help text one",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.how_we_help_icon_one",
+      "verbose_name": "How we help icon one",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.how_we_help_text_two",
+      "verbose_name": "How we help text two",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.how_we_help_icon_two",
+      "verbose_name": "How we help icon two",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.how_we_help_text_three",
+      "verbose_name": "How we help text three",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.how_we_help_icon_three",
+      "verbose_name": "How we help icon three",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.how_we_help_text_four",
+      "verbose_name": "How we help text four",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.how_we_help_icon_four",
+      "verbose_name": "How we help icon four",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.how_we_help_text_five",
+      "verbose_name": "How we help text five",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.how_we_help_icon_five",
+      "verbose_name": "How we help icon five",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.how_we_help_text_six",
+      "verbose_name": "How we help text six",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.contact_section_title",
+      "verbose_name": "Contact section title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.contact_section_content",
+      "verbose_name": "Contact section content",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.InvestHomePage.contact_section_call_to_action_text",
+      "verbose_name": "Contact section call to action text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    }
+  ],
+  "invest.SetupGuideLandingPage": [
+    {
+      "name": "invest.SetupGuideLandingPage.heading",
+      "verbose_name": "Heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SetupGuideLandingPage.sub_heading",
+      "verbose_name": "Sub heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SetupGuideLandingPage.lead_in",
+      "verbose_name": "Lead in",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    }
+  ],
+  "invest.SectorLandingPage": [
+    {
+      "name": "invest.SectorLandingPage.heading",
+      "verbose_name": "Heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorLandingPage.hero_image",
+      "verbose_name": "Hero image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    }
+  ],
+  "invest.SectorPage": [
+    {
+      "name": "invest.SectorPage.featured",
+      "verbose_name": "Featured",
+      "type": "django.db.models.fields.BooleanField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.description",
+      "verbose_name": "Description",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.heading",
+      "verbose_name": "Heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.hero_image",
+      "verbose_name": "Hero image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.pullout_text",
+      "verbose_name": "Pullout text",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.pullout_stat",
+      "verbose_name": "Pullout stat",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.pullout_stat_text",
+      "verbose_name": "Pullout stat text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.subsection_title_one",
+      "verbose_name": "Subsection title one",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.subsection_content_one",
+      "verbose_name": "Subsection content one",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.subsection_map_one",
+      "verbose_name": "Subsection map one",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.subsection_title_two",
+      "verbose_name": "Subsection title two",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.subsection_content_two",
+      "verbose_name": "Subsection content two",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.subsection_map_two",
+      "verbose_name": "Subsection map two",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.subsection_title_three",
+      "verbose_name": "Subsection title three",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.subsection_content_three",
+      "verbose_name": "Subsection content three",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.subsection_map_three",
+      "verbose_name": "Subsection map three",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.subsection_title_four",
+      "verbose_name": "Subsection title four",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.subsection_content_four",
+      "verbose_name": "Subsection content four",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.subsection_map_four",
+      "verbose_name": "Subsection map four",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.subsection_title_five",
+      "verbose_name": "Subsection title five",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.subsection_content_five",
+      "verbose_name": "Subsection content five",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.subsection_map_five",
+      "verbose_name": "Subsection map five",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.subsection_title_six",
+      "verbose_name": "Subsection title six",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.subsection_content_six",
+      "verbose_name": "Subsection content six",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.subsection_map_six",
+      "verbose_name": "Subsection map six",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.subsection_title_seven",
+      "verbose_name": "Subsection title seven",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.subsection_content_seven",
+      "verbose_name": "Subsection content seven",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SectorPage.subsection_map_seven",
+      "verbose_name": "Subsection map seven",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    }
+  ],
+  "invest.RegionLandingPage": [
+    {
+      "name": "invest.RegionLandingPage.heading",
+      "verbose_name": "Heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.RegionLandingPage.hero_image",
+      "verbose_name": "Hero image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    }
+  ],
+  "invest.SetupGuidePage": [
+    {
+      "name": "invest.SetupGuidePage.description",
+      "verbose_name": "Description",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SetupGuidePage.heading",
+      "verbose_name": "Heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SetupGuidePage.sub_heading",
+      "verbose_name": "Sub heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SetupGuidePage.subsection_title_one",
+      "verbose_name": "Subsection title one",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SetupGuidePage.subsection_content_one",
+      "verbose_name": "Subsection content one",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SetupGuidePage.subsection_title_two",
+      "verbose_name": "Subsection title two",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SetupGuidePage.subsection_content_two",
+      "verbose_name": "Subsection content two",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SetupGuidePage.subsection_title_three",
+      "verbose_name": "Subsection title three",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SetupGuidePage.subsection_content_three",
+      "verbose_name": "Subsection content three",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SetupGuidePage.subsection_title_four",
+      "verbose_name": "Subsection title four",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SetupGuidePage.subsection_content_four",
+      "verbose_name": "Subsection content four",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SetupGuidePage.subsection_title_five",
+      "verbose_name": "Subsection title five",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SetupGuidePage.subsection_content_five",
+      "verbose_name": "Subsection content five",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SetupGuidePage.subsection_title_six",
+      "verbose_name": "Subsection title six",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SetupGuidePage.subsection_content_six",
+      "verbose_name": "Subsection content six",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SetupGuidePage.subsection_title_seven",
+      "verbose_name": "Subsection title seven",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.SetupGuidePage.subsection_content_seven",
+      "verbose_name": "Subsection content seven",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    }
+  ],
+  "export_readiness.GetFinancePage": [
+    {
+      "name": "export_readiness.GetFinancePage.breadcrumbs_label",
+      "verbose_name": "Breadcrumbs label",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.GetFinancePage.hero_text",
+      "verbose_name": "Hero text",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.GetFinancePage.hero_image",
+      "verbose_name": "Hero image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.GetFinancePage.ukef_logo",
+      "verbose_name": "Ukef logo",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.GetFinancePage.contact_proposition",
+      "verbose_name": "Contact proposition",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.GetFinancePage.contact_button",
+      "verbose_name": "Contact button",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.GetFinancePage.advantages_title",
+      "verbose_name": "Advantages title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.GetFinancePage.advantages_one",
+      "verbose_name": "Advantages one",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.GetFinancePage.advantages_one_icon",
+      "verbose_name": "Advantages one icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.GetFinancePage.advantages_two",
+      "verbose_name": "Advantages two",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.GetFinancePage.advantages_two_icon",
+      "verbose_name": "Advantages two icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.GetFinancePage.advantages_three",
+      "verbose_name": "Advantages three",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.GetFinancePage.advantages_three_icon",
+      "verbose_name": "Advantages three icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.GetFinancePage.evidence",
+      "verbose_name": "Evidence",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.GetFinancePage.evidence_video",
+      "verbose_name": "Evidence video",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.GetFinancePage.breadcrumb",
+      "verbose_name": "Breadcrumb",
+      "type": "django.contrib.contenttypes.fields.GenericRelation",
+      "help_text": ""
+    }
+  ],
+  "invest.HighPotentialOpportunityDetailPage": [
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.breadcrumbs_label",
+      "verbose_name": "Breadcrumbs label",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.heading",
+      "verbose_name": "Heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.hero_image",
+      "verbose_name": "Hero image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.featured",
+      "verbose_name": "Featured",
+      "type": "django.db.models.fields.BooleanField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.description",
+      "verbose_name": "Description",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.contact_proposition",
+      "verbose_name": "Body text",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.contact_button",
+      "verbose_name": "Contact button",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.proposition_one",
+      "verbose_name": "Proposition one",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.proposition_one_image",
+      "verbose_name": "Proposition one image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.proposition_one_video",
+      "verbose_name": "Proposition one video",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.opportunity_list_title",
+      "verbose_name": "Opportunity list title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.opportunity_list_item_one",
+      "verbose_name": "Opportunity list item one",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.opportunity_list_item_two",
+      "verbose_name": "Opportunity list item two",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.opportunity_list_item_three",
+      "verbose_name": "Opportunity list item three",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.opportunity_list_image",
+      "verbose_name": "Opportunity list image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.proposition_two",
+      "verbose_name": "Proposition two",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.proposition_two_list_item_one",
+      "verbose_name": "Proposition two list item one",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.proposition_two_list_item_two",
+      "verbose_name": "Proposition two list item two",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.proposition_two_list_item_three",
+      "verbose_name": "Proposition two list item three",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.proposition_two_image",
+      "verbose_name": "Proposition two image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.proposition_two_video",
+      "verbose_name": "Proposition two video",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.competitive_advantages_title",
+      "verbose_name": "Body text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.competitive_advantages_list_item_one",
+      "verbose_name": "Competitive advantages list item one",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.competitive_advantages_list_item_one_icon",
+      "verbose_name": "Competitive advantages list item one icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.competitive_advantages_list_item_two",
+      "verbose_name": "Competitive advantages list item two",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.competitive_advantages_list_item_two_icon",
+      "verbose_name": "Competitive advantages list item two icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.competitive_advantages_list_item_three",
+      "verbose_name": "Competitive advantages list item three",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.competitive_advantages_list_item_three_icon",
+      "verbose_name": "Competitive advantages list item three icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.testimonial",
+      "verbose_name": "Testimonial",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.testimonial_background",
+      "verbose_name": "Background image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.companies_list_text",
+      "verbose_name": "Companies list text",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.companies_list_item_image_one",
+      "verbose_name": "Companies list item image one",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.companies_list_item_image_two",
+      "verbose_name": "Companies list item image two",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.companies_list_item_image_three",
+      "verbose_name": "Companies list item image three",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.companies_list_item_image_four",
+      "verbose_name": "Companies list item image four",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.companies_list_item_image_five",
+      "verbose_name": "Companies list item image five",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.companies_list_item_image_six",
+      "verbose_name": "Companies list item image six",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.companies_list_item_image_seven",
+      "verbose_name": "Companies list item image seven",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.companies_list_item_image_eight",
+      "verbose_name": "Companies list item image eight",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.case_study_list_title",
+      "verbose_name": "Case study list title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.case_study_one_text",
+      "verbose_name": "Case study one text",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.case_study_one_image",
+      "verbose_name": "Case study one image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.case_study_two_text",
+      "verbose_name": "Case study two text",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.case_study_two_image",
+      "verbose_name": "Case study two image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.case_study_three_text",
+      "verbose_name": "Case study three text",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.case_study_three_image",
+      "verbose_name": "Case study three image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.case_study_four_text",
+      "verbose_name": "Case study four text",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.case_study_four_image",
+      "verbose_name": "Case study four image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.other_opportunities_title",
+      "verbose_name": "Title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.pdf_document",
+      "verbose_name": "Pdf document",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityDetailPage.summary_image",
+      "verbose_name": "Image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": "Image used on the opportunity listing page for this opportunity"
+    }
+  ],
+  "invest.HighPotentialOpportunityFormPage": [
+    {
+      "name": "invest.HighPotentialOpportunityFormPage.heading",
+      "verbose_name": "Heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormPage.sub_heading",
+      "verbose_name": "Sub heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormPage.breadcrumbs_label",
+      "verbose_name": "Breadcrumbs label",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormPage.full_name_help_text",
+      "verbose_name": "Help text",
+      "type": "core.wagtail_fields.FormHelpTextField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormPage.full_name_label",
+      "verbose_name": "Label",
+      "type": "core.wagtail_fields.FormLabelField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormPage.role_in_company_help_text",
+      "verbose_name": "Help text",
+      "type": "core.wagtail_fields.FormHelpTextField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormPage.role_in_company_label",
+      "verbose_name": "Label",
+      "type": "core.wagtail_fields.FormLabelField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormPage.email_address_help_text",
+      "verbose_name": "Help text",
+      "type": "core.wagtail_fields.FormHelpTextField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormPage.email_address_label",
+      "verbose_name": "Label",
+      "type": "core.wagtail_fields.FormLabelField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormPage.phone_number_help_text",
+      "verbose_name": "Help text",
+      "type": "core.wagtail_fields.FormHelpTextField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormPage.phone_number_label",
+      "verbose_name": "Label",
+      "type": "core.wagtail_fields.FormLabelField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormPage.company_name_help_text",
+      "verbose_name": "Help text",
+      "type": "core.wagtail_fields.FormHelpTextField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormPage.company_name_label",
+      "verbose_name": "Label",
+      "type": "core.wagtail_fields.FormLabelField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormPage.website_url_help_text",
+      "verbose_name": "Help text",
+      "type": "core.wagtail_fields.FormHelpTextField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormPage.website_url_label",
+      "verbose_name": "Label",
+      "type": "core.wagtail_fields.FormLabelField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormPage.country_help_text",
+      "verbose_name": "Help text",
+      "type": "core.wagtail_fields.FormHelpTextField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormPage.country_label",
+      "verbose_name": "Label",
+      "type": "core.wagtail_fields.FormLabelField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormPage.company_size_help_text",
+      "verbose_name": "Help text",
+      "type": "core.wagtail_fields.FormHelpTextField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormPage.company_size_label",
+      "verbose_name": "Label",
+      "type": "core.wagtail_fields.FormLabelField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormPage.opportunities_help_text",
+      "verbose_name": "Help text",
+      "type": "core.wagtail_fields.FormHelpTextField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormPage.opportunities_label",
+      "verbose_name": "Label",
+      "type": "core.wagtail_fields.FormLabelField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormPage.comment_help_text",
+      "verbose_name": "Help text",
+      "type": "core.wagtail_fields.FormHelpTextField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormPage.comment_label",
+      "verbose_name": "Label",
+      "type": "core.wagtail_fields.FormLabelField",
+      "help_text": ""
+    }
+  ],
+  "invest.HighPotentialOpportunityFormSuccessPage": [
+    {
+      "name": "invest.HighPotentialOpportunityFormSuccessPage.breadcrumbs_label",
+      "verbose_name": "Breadcrumbs label",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormSuccessPage.heading",
+      "verbose_name": "Section title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormSuccessPage.sub_heading",
+      "verbose_name": "Section body",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormSuccessPage.next_steps_title",
+      "verbose_name": "Section title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormSuccessPage.next_steps_body",
+      "verbose_name": "Section body",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormSuccessPage.documents_title",
+      "verbose_name": "Section title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "invest.HighPotentialOpportunityFormSuccessPage.documents_body",
+      "verbose_name": "Section body",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    }
+  ],
+  "export_readiness.EUExitInternationalFormPage": [
+    {
+      "name": "export_readiness.EUExitInternationalFormPage.breadcrumbs_label",
+      "verbose_name": "Breadcrumbs label",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitInternationalFormPage.heading",
+      "verbose_name": "Heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitInternationalFormPage.body_text",
+      "verbose_name": "Body text",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitInternationalFormPage.submit_button_text",
+      "verbose_name": "Submit button text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitInternationalFormPage.disclaimer",
+      "verbose_name": "Disclaimer",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitInternationalFormPage.first_name_help_text",
+      "verbose_name": "Help text",
+      "type": "core.wagtail_fields.FormHelpTextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitInternationalFormPage.first_name_label",
+      "verbose_name": "Label",
+      "type": "core.wagtail_fields.FormLabelField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitInternationalFormPage.last_name_help_text",
+      "verbose_name": "Help text",
+      "type": "core.wagtail_fields.FormHelpTextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitInternationalFormPage.last_name_label",
+      "verbose_name": "Label",
+      "type": "core.wagtail_fields.FormLabelField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitInternationalFormPage.email_help_text",
+      "verbose_name": "Help text",
+      "type": "core.wagtail_fields.FormHelpTextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitInternationalFormPage.email_label",
+      "verbose_name": "Label",
+      "type": "core.wagtail_fields.FormLabelField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitInternationalFormPage.organisation_type_help_text",
+      "verbose_name": "Help text",
+      "type": "core.wagtail_fields.FormHelpTextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitInternationalFormPage.organisation_type_label",
+      "verbose_name": "Label",
+      "type": "core.wagtail_fields.FormLabelField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitInternationalFormPage.company_name_help_text",
+      "verbose_name": "Help text",
+      "type": "core.wagtail_fields.FormHelpTextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitInternationalFormPage.company_name_label",
+      "verbose_name": "Label",
+      "type": "core.wagtail_fields.FormLabelField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitInternationalFormPage.country_help_text",
+      "verbose_name": "Help text",
+      "type": "core.wagtail_fields.FormHelpTextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitInternationalFormPage.country_label",
+      "verbose_name": "Label",
+      "type": "core.wagtail_fields.FormLabelField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitInternationalFormPage.city_help_text",
+      "verbose_name": "Help text",
+      "type": "core.wagtail_fields.FormHelpTextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitInternationalFormPage.city_label",
+      "verbose_name": "Label",
+      "type": "core.wagtail_fields.FormLabelField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitInternationalFormPage.comment_help_text",
+      "verbose_name": "Help text",
+      "type": "core.wagtail_fields.FormHelpTextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitInternationalFormPage.comment_label",
+      "verbose_name": "Label",
+      "type": "core.wagtail_fields.FormLabelField",
+      "help_text": ""
+    }
+  ],
+  "export_readiness.EUExitDomesticFormPage": [
+    {
+      "name": "export_readiness.EUExitDomesticFormPage.breadcrumbs_label",
+      "verbose_name": "Breadcrumbs label",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitDomesticFormPage.heading",
+      "verbose_name": "Heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitDomesticFormPage.body_text",
+      "verbose_name": "Body text",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitDomesticFormPage.submit_button_text",
+      "verbose_name": "Submit button text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitDomesticFormPage.disclaimer",
+      "verbose_name": "Disclaimer",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitDomesticFormPage.first_name_help_text",
+      "verbose_name": "Help text",
+      "type": "core.wagtail_fields.FormHelpTextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitDomesticFormPage.first_name_label",
+      "verbose_name": "Label",
+      "type": "core.wagtail_fields.FormLabelField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitDomesticFormPage.last_name_help_text",
+      "verbose_name": "Help text",
+      "type": "core.wagtail_fields.FormHelpTextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitDomesticFormPage.last_name_label",
+      "verbose_name": "Label",
+      "type": "core.wagtail_fields.FormLabelField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitDomesticFormPage.email_help_text",
+      "verbose_name": "Help text",
+      "type": "core.wagtail_fields.FormHelpTextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitDomesticFormPage.email_label",
+      "verbose_name": "Label",
+      "type": "core.wagtail_fields.FormLabelField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitDomesticFormPage.organisation_type_help_text",
+      "verbose_name": "Help text",
+      "type": "core.wagtail_fields.FormHelpTextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitDomesticFormPage.organisation_type_label",
+      "verbose_name": "Label",
+      "type": "core.wagtail_fields.FormLabelField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitDomesticFormPage.company_name_help_text",
+      "verbose_name": "Help text",
+      "type": "core.wagtail_fields.FormHelpTextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitDomesticFormPage.company_name_label",
+      "verbose_name": "Label",
+      "type": "core.wagtail_fields.FormLabelField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitDomesticFormPage.comment_help_text",
+      "verbose_name": "Help text",
+      "type": "core.wagtail_fields.FormHelpTextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitDomesticFormPage.comment_label",
+      "verbose_name": "Label",
+      "type": "core.wagtail_fields.FormLabelField",
+      "help_text": ""
+    }
+  ],
+  "export_readiness.EUExitFormSuccessPage": [
+    {
+      "name": "export_readiness.EUExitFormSuccessPage.breadcrumbs_label",
+      "verbose_name": "Breadcrumbs label",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitFormSuccessPage.heading",
+      "verbose_name": "Title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitFormSuccessPage.body_text",
+      "verbose_name": "Body text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitFormSuccessPage.next_title",
+      "verbose_name": "Title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.EUExitFormSuccessPage.next_body_text",
+      "verbose_name": "Body text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    }
+  ],
+  "export_readiness.TopicLandingPage": [
+    {
+      "name": "export_readiness.TopicLandingPage.landing_page_title",
+      "verbose_name": "Landing page title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.TopicLandingPage.hero_image",
+      "verbose_name": "Hero image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.TopicLandingPage.hero_teaser",
+      "verbose_name": "Hero teaser",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.TopicLandingPage.teaser",
+      "verbose_name": "Teaser",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    }
+  ],
+  "export_readiness.HomePage": [
+    {
+      "name": "export_readiness.HomePage.banner_content",
+      "verbose_name": "Banner content",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.HomePage.banner_label",
+      "verbose_name": "Banner label",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.HomePage.news_title",
+      "verbose_name": "News title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.HomePage.news_description",
+      "verbose_name": "News description",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    }
+  ],
+  "export_readiness.InternationalLandingPage": [],
+  "export_readiness.ArticleListingPage": [
+    {
+      "name": "export_readiness.ArticleListingPage.landing_page_title",
+      "verbose_name": "Landing page title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.ArticleListingPage.hero_image",
+      "verbose_name": "Hero image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.ArticleListingPage.hero_teaser",
+      "verbose_name": "Hero teaser",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.ArticleListingPage.list_teaser",
+      "verbose_name": "List teaser",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    }
+  ],
+  "components.ComponentsApp": [],
+  "components.BannerComponent": [
+    {
+      "name": "components.BannerComponent.banner_content",
+      "verbose_name": "Banner content",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "components.BannerComponent.banner_label",
+      "verbose_name": "Banner label",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    }
+  ],
+  "export_readiness.ArticlePage": [
+    {
+      "name": "export_readiness.ArticlePage.article_title",
+      "verbose_name": "Article title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.ArticlePage.article_teaser",
+      "verbose_name": "Article teaser",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.ArticlePage.article_image",
+      "verbose_name": "Article image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.ArticlePage.article_body_text",
+      "verbose_name": "Article body text",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.ArticlePage.related_page_one",
+      "verbose_name": "Related page one",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.ArticlePage.related_page_two",
+      "verbose_name": "Related page two",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.ArticlePage.related_page_three",
+      "verbose_name": "Related page three",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.ArticlePage.tags",
+      "verbose_name": "Tags",
+      "type": "modelcluster.fields.ParentalManyToManyField",
+      "help_text": ""
+    }
+  ],
+  "export_readiness.ContactUsGuidancePage": [
+    {
+      "name": "export_readiness.ContactUsGuidancePage.topic",
+      "verbose_name": "Topic",
+      "type": "django.db.models.fields.TextField",
+      "help_text": "The slug and CMS page title are inferred from the topic"
+    },
+    {
+      "name": "export_readiness.ContactUsGuidancePage.body",
+      "verbose_name": "Body",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    }
+  ],
+  "export_readiness.ContactSuccessPage": [
+    {
+      "name": "export_readiness.ContactSuccessPage.topic",
+      "verbose_name": "Topic",
+      "type": "django.db.models.fields.TextField",
+      "help_text": "The slug and CMS page title are inferred from the topic"
+    },
+    {
+      "name": "export_readiness.ContactSuccessPage.heading",
+      "verbose_name": "Title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.ContactSuccessPage.body_text",
+      "verbose_name": "Body text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.ContactSuccessPage.next_title",
+      "verbose_name": "Title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.ContactSuccessPage.next_body_text",
+      "verbose_name": "Body text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    }
+  ],
+  "export_readiness.ContactSuccessPages": [],
+  "export_readiness.ContactUsGuidancePages": [],
+  "export_readiness.CampaignPage": [
+    {
+      "name": "export_readiness.CampaignPage.campaign_heading",
+      "verbose_name": "Campaign heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.campaign_hero_image",
+      "verbose_name": "Campaign hero image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.section_one_heading",
+      "verbose_name": "Section one heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.section_one_intro",
+      "verbose_name": "Section one intro",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.section_one_image",
+      "verbose_name": "Section one image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.selling_point_one_icon",
+      "verbose_name": "Selling point one icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.selling_point_one_heading",
+      "verbose_name": "Selling point one heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.selling_point_one_content",
+      "verbose_name": "Selling point one content",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.selling_point_two_icon",
+      "verbose_name": "Selling point two icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.selling_point_two_heading",
+      "verbose_name": "Selling point two heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.selling_point_two_content",
+      "verbose_name": "Selling point two content",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.selling_point_three_icon",
+      "verbose_name": "Selling point three icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.selling_point_three_heading",
+      "verbose_name": "Selling point three heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.selling_point_three_content",
+      "verbose_name": "Selling point three content",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.section_one_contact_button_url",
+      "verbose_name": "Section one contact button url",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.section_one_contact_button_text",
+      "verbose_name": "Section one contact button text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.section_two_heading",
+      "verbose_name": "Section two heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.section_two_intro",
+      "verbose_name": "Section two intro",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.section_two_image",
+      "verbose_name": "Section two image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.section_two_contact_button_url",
+      "verbose_name": "Section two contact button url",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.section_two_contact_button_text",
+      "verbose_name": "Section two contact button text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.related_content_heading",
+      "verbose_name": "Related content heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.related_content_intro",
+      "verbose_name": "Related content intro",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.related_page_one",
+      "verbose_name": "Related page one",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.related_page_two",
+      "verbose_name": "Related page two",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.related_page_three",
+      "verbose_name": "Related page three",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.cta_box_message",
+      "verbose_name": "Cta box message",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.cta_box_button_url",
+      "verbose_name": "Cta box button url",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CampaignPage.cta_box_button_text",
+      "verbose_name": "Cta box button text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    }
+  ],
+  "export_readiness.SitePolicyPages": [],
+  "export_readiness.MarketingPages": [],
+  "great_international.GreatInternationalApp": [],
+  "great_international.InternationalHomePage": [
+    {
+      "name": "great_international.InternationalHomePage.hero_title",
+      "verbose_name": "Hero title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalHomePage.hero_subtitle",
+      "verbose_name": "Hero subtitle",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalHomePage.hero_cta_text",
+      "verbose_name": "Hero cta text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalHomePage.hero_image",
+      "verbose_name": "Hero image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalHomePage.invest_title",
+      "verbose_name": "Invest title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalHomePage.invest_content",
+      "verbose_name": "Invest content",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalHomePage.invest_image",
+      "verbose_name": "Invest image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalHomePage.trade_title",
+      "verbose_name": "Trade title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalHomePage.trade_content",
+      "verbose_name": "Trade content",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalHomePage.trade_image",
+      "verbose_name": "Trade image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalHomePage.tariffs_title",
+      "verbose_name": "Tariffs title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalHomePage.tariffs_description",
+      "verbose_name": "Tariffs description",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalHomePage.tariffs_link",
+      "verbose_name": "Tariffs link",
+      "type": "django.db.models.fields.URLField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalHomePage.tariffs_image",
+      "verbose_name": "Tariffs image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalHomePage.tariffs_call_to_action_text",
+      "verbose_name": "Tariffs call to action text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalHomePage.news_title",
+      "verbose_name": "News title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalHomePage.related_page_one",
+      "verbose_name": "Related page one",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalHomePage.related_page_two",
+      "verbose_name": "Related page two",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalHomePage.related_page_three",
+      "verbose_name": "Related page three",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalHomePage.study_in_uk_cta_text",
+      "verbose_name": "Study in uk cta text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalHomePage.visit_uk_cta_text",
+      "verbose_name": "Visit uk cta text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    }
+  ],
+  "great_international.InternationalCampaignPage": [
+    {
+      "name": "great_international.InternationalCampaignPage.campaign_subheading",
+      "verbose_name": "Campaign subheading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": "This is a subheading that displays when the article is featured on another page"
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.campaign_teaser",
+      "verbose_name": "Campaign teaser",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.campaign_heading",
+      "verbose_name": "Campaign heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.campaign_hero_image",
+      "verbose_name": "Campaign hero image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.section_one_heading",
+      "verbose_name": "Section one heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.section_one_intro",
+      "verbose_name": "Section one intro",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.section_one_image",
+      "verbose_name": "Section one image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.selling_point_one_icon",
+      "verbose_name": "Selling point one icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.selling_point_one_heading",
+      "verbose_name": "Selling point one heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.selling_point_one_content",
+      "verbose_name": "Selling point one content",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.selling_point_two_icon",
+      "verbose_name": "Selling point two icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.selling_point_two_heading",
+      "verbose_name": "Selling point two heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.selling_point_two_content",
+      "verbose_name": "Selling point two content",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.selling_point_three_icon",
+      "verbose_name": "Selling point three icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.selling_point_three_heading",
+      "verbose_name": "Selling point three heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.selling_point_three_content",
+      "verbose_name": "Selling point three content",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.section_one_contact_button_url",
+      "verbose_name": "Section one contact button url",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.section_one_contact_button_text",
+      "verbose_name": "Section one contact button text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.section_two_heading",
+      "verbose_name": "Section two heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.section_two_intro",
+      "verbose_name": "Section two intro",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.section_two_image",
+      "verbose_name": "Section two image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.section_two_contact_button_url",
+      "verbose_name": "Section two contact button url",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.section_two_contact_button_text",
+      "verbose_name": "Section two contact button text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.related_content_heading",
+      "verbose_name": "Related content heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.related_content_intro",
+      "verbose_name": "Related content intro",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.related_page_one",
+      "verbose_name": "Related page one",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.related_page_two",
+      "verbose_name": "Related page two",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.related_page_three",
+      "verbose_name": "Related page three",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.cta_box_message",
+      "verbose_name": "Cta box message",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.cta_box_button_url",
+      "verbose_name": "Cta box button url",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.cta_box_button_text",
+      "verbose_name": "Cta box button text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCampaignPage.tags",
+      "verbose_name": "Tags",
+      "type": "modelcluster.fields.ParentalManyToManyField",
+      "help_text": ""
+    }
+  ],
+  "great_international.InternationalArticlePage": [
+    {
+      "name": "great_international.InternationalArticlePage.article_title",
+      "verbose_name": "Article title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalArticlePage.article_subheading",
+      "verbose_name": "Article subheading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": "This is a subheading that displays when the article is featured on another page"
+    },
+    {
+      "name": "great_international.InternationalArticlePage.article_teaser",
+      "verbose_name": "Article teaser",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalArticlePage.article_image",
+      "verbose_name": "Article image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalArticlePage.article_body_text",
+      "verbose_name": "Article body text",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalArticlePage.related_page_one",
+      "verbose_name": "Related page one",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalArticlePage.related_page_two",
+      "verbose_name": "Related page two",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalArticlePage.related_page_three",
+      "verbose_name": "Related page three",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalArticlePage.tags",
+      "verbose_name": "Tags",
+      "type": "modelcluster.fields.ParentalManyToManyField",
+      "help_text": ""
+    }
+  ],
+  "great_international.InternationalRegionPage": [
+    {
+      "name": "great_international.InternationalRegionPage.tags",
+      "verbose_name": "Tags",
+      "type": "modelcluster.fields.ParentalManyToManyField",
+      "help_text": ""
+    }
+  ],
+  "great_international.InternationalLocalisedFolderPage": [],
+  "great_international.InternationalTopicLandingPage": [
+    {
+      "name": "great_international.InternationalTopicLandingPage.landing_page_title",
+      "verbose_name": "Landing page title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalTopicLandingPage.hero_image",
+      "verbose_name": "Hero image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalTopicLandingPage.hero_teaser",
+      "verbose_name": "Hero teaser",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalTopicLandingPage.tags",
+      "verbose_name": "Tags",
+      "type": "modelcluster.fields.ParentalManyToManyField",
+      "help_text": ""
+    }
+  ],
+  "great_international.InternationalSectorPage": [
+    {
+      "name": "great_international.InternationalSectorPage.heading",
+      "verbose_name": "Sector name",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.sub_heading",
+      "verbose_name": "Sub heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.hero_image",
+      "verbose_name": "Hero image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.heading_teaser",
+      "verbose_name": "Introduction",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.section_one_body",
+      "verbose_name": "3 unique selling points markdown",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.section_one_image",
+      "verbose_name": "Image for unique selling points",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.section_one_image_caption",
+      "verbose_name": "Image caption",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.section_one_image_caption_company",
+      "verbose_name": "Image caption attribution",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.statistic_1_number",
+      "verbose_name": "Statistic 1 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.statistic_1_heading",
+      "verbose_name": "Statistic 1 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.statistic_1_smallprint",
+      "verbose_name": "Statistic 1 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.statistic_2_number",
+      "verbose_name": "Statistic 2 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.statistic_2_heading",
+      "verbose_name": "Statistic 2 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.statistic_2_smallprint",
+      "verbose_name": "Statistic 2 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.statistic_3_number",
+      "verbose_name": "Statistic 3 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.statistic_3_heading",
+      "verbose_name": "Statistic 3 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.statistic_3_smallprint",
+      "verbose_name": "Statistic 3 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.statistic_4_number",
+      "verbose_name": "Statistic 4 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.statistic_4_heading",
+      "verbose_name": "Statistic 4 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.statistic_4_smallprint",
+      "verbose_name": "Statistic 4 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.statistic_5_number",
+      "verbose_name": "Statistic 5 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.statistic_5_heading",
+      "verbose_name": "Statistic 5 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.statistic_5_smallprint",
+      "verbose_name": "Statistic 5 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.statistic_6_number",
+      "verbose_name": "Statistic 6 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.statistic_6_heading",
+      "verbose_name": "Statistic 6 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.statistic_6_smallprint",
+      "verbose_name": "Statistic 6 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.section_two_heading",
+      "verbose_name": "Spotlight",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.section_two_teaser",
+      "verbose_name": "Spotlight summary",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.section_two_subsection_one_icon",
+      "verbose_name": "Spotlight 1 icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.section_two_subsection_one_heading",
+      "verbose_name": "Spotlight 1 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.section_two_subsection_one_body",
+      "verbose_name": "Spotlight 1 body",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.section_two_subsection_two_icon",
+      "verbose_name": "Spotlight 2 icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.section_two_subsection_two_heading",
+      "verbose_name": "Spotlight 2 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.section_two_subsection_two_body",
+      "verbose_name": "Spotlight 2 body",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.section_two_subsection_three_icon",
+      "verbose_name": "Spotlight 3 icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.section_two_subsection_three_heading",
+      "verbose_name": "Spotlight 3 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.section_two_subsection_three_body",
+      "verbose_name": "Spotlight 3 body",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.case_study_title",
+      "verbose_name": "Case study title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.case_study_description",
+      "verbose_name": "Case study description",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.case_study_cta_text",
+      "verbose_name": "Case study link text",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.case_study_cta_page",
+      "verbose_name": "Case study link url",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.case_study_image",
+      "verbose_name": "Case study image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.section_three_heading",
+      "verbose_name": "Fact sheets heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.section_three_teaser",
+      "verbose_name": "Fact sheets teaser",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.section_three_subsection_one_heading",
+      "verbose_name": "Fact sheet 1 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.section_three_subsection_one_teaser",
+      "verbose_name": "Fact sheet 1 teaser",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.section_three_subsection_one_body",
+      "verbose_name": "Fact sheet 1 body",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.section_three_subsection_two_heading",
+      "verbose_name": "Fact sheet 2 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.section_three_subsection_two_teaser",
+      "verbose_name": "Fact sheet 2 teaser",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.section_three_subsection_two_body",
+      "verbose_name": "Fact sheet 2 body",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.related_page_one",
+      "verbose_name": "Related page one",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.related_page_two",
+      "verbose_name": "Related page two",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.related_page_three",
+      "verbose_name": "Related page three",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalSectorPage.tags",
+      "verbose_name": "Tags",
+      "type": "modelcluster.fields.ParentalManyToManyField",
+      "help_text": ""
+    }
+  ],
+  "export_readiness.CountryGuidePage": [
+    {
+      "name": "export_readiness.CountryGuidePage.heading",
+      "verbose_name": "Country name",
+      "type": "django.db.models.fields.CharField",
+      "help_text": "Only enter the country name"
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.sub_heading",
+      "verbose_name": "Sub heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.hero_image",
+      "verbose_name": "Hero image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.heading_teaser",
+      "verbose_name": "Introduction",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.section_one_body",
+      "verbose_name": "3 unique selling points markdown",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": "Use H3 (###) markdown for the 3 subheadings"
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.section_one_image",
+      "verbose_name": "Image for unique selling points",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.section_one_image_caption",
+      "verbose_name": "Bullets image caption",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.section_one_image_caption_company",
+      "verbose_name": "Bullets image caption \u2014 company name",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.statistic_1_number",
+      "verbose_name": "Statistic 1 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.statistic_1_heading",
+      "verbose_name": "Statistic 1 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.statistic_1_smallprint",
+      "verbose_name": "Statistic 1 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.statistic_2_number",
+      "verbose_name": "Statistic 2 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.statistic_2_heading",
+      "verbose_name": "Statistic 2 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.statistic_2_smallprint",
+      "verbose_name": "Statistic 2 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.statistic_3_number",
+      "verbose_name": "Statistic 3 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.statistic_3_heading",
+      "verbose_name": "Statistic 3 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.statistic_3_smallprint",
+      "verbose_name": "Statistic 3 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.statistic_4_number",
+      "verbose_name": "Statistic 4 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.statistic_4_heading",
+      "verbose_name": "Statistic 4 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.statistic_4_smallprint",
+      "verbose_name": "Statistic 4 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.statistic_5_number",
+      "verbose_name": "Statistic 5 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.statistic_5_heading",
+      "verbose_name": "Statistic 5 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.statistic_5_smallprint",
+      "verbose_name": "Statistic 5 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.statistic_6_number",
+      "verbose_name": "Statistic 6 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.statistic_6_heading",
+      "verbose_name": "Statistic 6 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.statistic_6_smallprint",
+      "verbose_name": "Statistic 6 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.section_two_heading",
+      "verbose_name": "High potential industries for uk businesses",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.section_two_teaser",
+      "verbose_name": "Summary of the industry opportunities",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_icon",
+      "verbose_name": "Industry icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_title",
+      "verbose_name": "Industry title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_teaser",
+      "verbose_name": "Industry teaser",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_subsection_1_icon",
+      "verbose_name": "Subsection 1 icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_subsection_1_heading",
+      "verbose_name": "Subsection 1 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_subsection_1_body",
+      "verbose_name": "Subsection 1 body",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_subsection_2_icon",
+      "verbose_name": "Subsection 2 icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_subsection_2_heading",
+      "verbose_name": "Subsection 2 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_subsection_2_body",
+      "verbose_name": "Subsection 2 body",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_subsection_3_icon",
+      "verbose_name": "Subsection 2 icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_subsection_3_heading",
+      "verbose_name": "Subsection 2 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_subsection_3_body",
+      "verbose_name": "Subsection 2 body",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_case_study_hero_image",
+      "verbose_name": "Case study hero",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_case_study_button_text",
+      "verbose_name": "Case study button text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_case_study_button_link",
+      "verbose_name": "Case study button link",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_case_study_title",
+      "verbose_name": "Case study title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_case_study_description",
+      "verbose_name": "Case study description",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_cta_1_link",
+      "verbose_name": "Cta link 1",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_cta_1_title",
+      "verbose_name": "Cta title 1",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_cta_2_link",
+      "verbose_name": "Cta link 2",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_cta_2_title",
+      "verbose_name": "Cta title 2",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_cta_3_link",
+      "verbose_name": "Cta link 3",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_cta_3_title",
+      "verbose_name": "Cta title 3",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_statistic_1_number",
+      "verbose_name": "Stat 1 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_statistic_1_heading",
+      "verbose_name": "Stat 1 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_statistic_1_smallprint",
+      "verbose_name": "Stat 1 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_statistic_2_number",
+      "verbose_name": "Stat 2 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_statistic_2_heading",
+      "verbose_name": "Stat 2 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_statistic_2_smallprint",
+      "verbose_name": "Stat 2 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_statistic_3_number",
+      "verbose_name": "Stat 3 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_statistic_3_heading",
+      "verbose_name": "Stat 3 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_statistic_3_smallprint",
+      "verbose_name": "Stat 3 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_statistic_4_number",
+      "verbose_name": "Stat 4 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_statistic_4_heading",
+      "verbose_name": "Stat 4 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_statistic_4_smallprint",
+      "verbose_name": "Stat 4 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_statistic_5_number",
+      "verbose_name": "Stat 5 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_statistic_5_heading",
+      "verbose_name": "Stat 5 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_statistic_5_smallprint",
+      "verbose_name": "Stat 5 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_statistic_6_number",
+      "verbose_name": "Stat 6 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_statistic_6_heading",
+      "verbose_name": "Stat 6 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_1_statistic_6_smallprint",
+      "verbose_name": "Stat 6 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_icon",
+      "verbose_name": "Industry icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_title",
+      "verbose_name": "Industry title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_teaser",
+      "verbose_name": "Industry teaser",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_subsection_1_icon",
+      "verbose_name": "Subsection 1 icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_subsection_1_heading",
+      "verbose_name": "Subsection 1 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_subsection_1_body",
+      "verbose_name": "Subsection 1 body",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_subsection_2_icon",
+      "verbose_name": "Subsection 2 icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_subsection_2_heading",
+      "verbose_name": "Subsection 2 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_subsection_2_body",
+      "verbose_name": "Subsection 2 body",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_subsection_3_icon",
+      "verbose_name": "Subsection 2 icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_subsection_3_heading",
+      "verbose_name": "Subsection 2 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_subsection_3_body",
+      "verbose_name": "Subsection 2 body",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_case_study_hero_image",
+      "verbose_name": "Case study hero",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_case_study_button_text",
+      "verbose_name": "Case study button text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_case_study_button_link",
+      "verbose_name": "Case study button link",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_case_study_title",
+      "verbose_name": "Case study title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_case_study_description",
+      "verbose_name": "Case study description",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_cta_1_link",
+      "verbose_name": "Cta link 1",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_cta_1_title",
+      "verbose_name": "Cta title 1",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_cta_2_link",
+      "verbose_name": "Cta link 2",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_cta_2_title",
+      "verbose_name": "Cta title 2",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_cta_3_link",
+      "verbose_name": "Cta link 3",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_cta_3_title",
+      "verbose_name": "Cta title 3",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_statistic_1_number",
+      "verbose_name": "Stat 1 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_statistic_1_heading",
+      "verbose_name": "Stat 1 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_statistic_1_smallprint",
+      "verbose_name": "Stat 1 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_statistic_2_number",
+      "verbose_name": "Stat 2 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_statistic_2_heading",
+      "verbose_name": "Stat 2 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_statistic_2_smallprint",
+      "verbose_name": "Stat 2 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_statistic_3_number",
+      "verbose_name": "Stat 3 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_statistic_3_heading",
+      "verbose_name": "Stat 3 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_statistic_3_smallprint",
+      "verbose_name": "Stat 3 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_statistic_4_number",
+      "verbose_name": "Stat 4 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_statistic_4_heading",
+      "verbose_name": "Stat 4 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_statistic_4_smallprint",
+      "verbose_name": "Stat 4 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_statistic_5_number",
+      "verbose_name": "Stat 5 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_statistic_5_heading",
+      "verbose_name": "Stat 5 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_statistic_5_smallprint",
+      "verbose_name": "Stat 5 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_statistic_6_number",
+      "verbose_name": "Stat 6 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_statistic_6_heading",
+      "verbose_name": "Stat 6 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_2_statistic_6_smallprint",
+      "verbose_name": "Stat 6 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_icon",
+      "verbose_name": "Industry icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_title",
+      "verbose_name": "Industry title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_teaser",
+      "verbose_name": "Industry teaser",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_subsection_1_icon",
+      "verbose_name": "Subsection 1 icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_subsection_1_heading",
+      "verbose_name": "Subsection 1 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_subsection_1_body",
+      "verbose_name": "Subsection 1 body",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_subsection_2_icon",
+      "verbose_name": "Subsection 2 icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_subsection_2_heading",
+      "verbose_name": "Subsection 2 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_subsection_2_body",
+      "verbose_name": "Subsection 2 body",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_subsection_3_icon",
+      "verbose_name": "Subsection 2 icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_subsection_3_heading",
+      "verbose_name": "Subsection 2 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_subsection_3_body",
+      "verbose_name": "Subsection 2 body",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_case_study_hero_image",
+      "verbose_name": "Case study hero",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_case_study_button_text",
+      "verbose_name": "Case study button text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_case_study_button_link",
+      "verbose_name": "Case study button link",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_case_study_title",
+      "verbose_name": "Case study title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_case_study_description",
+      "verbose_name": "Case study description",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_cta_1_link",
+      "verbose_name": "Cta link 1",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_cta_1_title",
+      "verbose_name": "Cta title 1",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_cta_2_link",
+      "verbose_name": "Cta link 2",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_cta_2_title",
+      "verbose_name": "Cta title 2",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_cta_3_link",
+      "verbose_name": "Cta link 3",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_cta_3_title",
+      "verbose_name": "Cta title 3",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_statistic_1_number",
+      "verbose_name": "Stat 1 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_statistic_1_heading",
+      "verbose_name": "Stat 1 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_statistic_1_smallprint",
+      "verbose_name": "Stat 1 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_statistic_2_number",
+      "verbose_name": "Stat 2 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_statistic_2_heading",
+      "verbose_name": "Stat 2 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_statistic_2_smallprint",
+      "verbose_name": "Stat 2 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_statistic_3_number",
+      "verbose_name": "Stat 3 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_statistic_3_heading",
+      "verbose_name": "Stat 3 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_statistic_3_smallprint",
+      "verbose_name": "Stat 3 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_statistic_4_number",
+      "verbose_name": "Stat 4 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_statistic_4_heading",
+      "verbose_name": "Stat 4 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_statistic_4_smallprint",
+      "verbose_name": "Stat 4 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_statistic_5_number",
+      "verbose_name": "Stat 5 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_statistic_5_heading",
+      "verbose_name": "Stat 5 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_statistic_5_smallprint",
+      "verbose_name": "Stat 5 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_statistic_6_number",
+      "verbose_name": "Stat 6 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_statistic_6_heading",
+      "verbose_name": "Stat 6 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_3_statistic_6_smallprint",
+      "verbose_name": "Stat 6 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_icon",
+      "verbose_name": "Industry icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_title",
+      "verbose_name": "Industry title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_teaser",
+      "verbose_name": "Industry teaser",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_subsection_1_icon",
+      "verbose_name": "Subsection 1 icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_subsection_1_heading",
+      "verbose_name": "Subsection 1 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_subsection_1_body",
+      "verbose_name": "Subsection 1 body",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_subsection_2_icon",
+      "verbose_name": "Subsection 2 icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_subsection_2_heading",
+      "verbose_name": "Subsection 2 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_subsection_2_body",
+      "verbose_name": "Subsection 2 body",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_subsection_3_icon",
+      "verbose_name": "Subsection 2 icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_subsection_3_heading",
+      "verbose_name": "Subsection 2 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_subsection_3_body",
+      "verbose_name": "Subsection 2 body",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_case_study_hero_image",
+      "verbose_name": "Case study hero",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_case_study_button_text",
+      "verbose_name": "Case study button text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_case_study_button_link",
+      "verbose_name": "Case study button link",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_case_study_title",
+      "verbose_name": "Case study title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_case_study_description",
+      "verbose_name": "Case study description",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_cta_1_link",
+      "verbose_name": "Cta link 1",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_cta_1_title",
+      "verbose_name": "Cta title 1",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_cta_2_link",
+      "verbose_name": "Cta link 2",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_cta_2_title",
+      "verbose_name": "Cta title 2",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_cta_3_link",
+      "verbose_name": "Cta link 3",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_cta_3_title",
+      "verbose_name": "Cta title 3",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_statistic_1_number",
+      "verbose_name": "Stat 1 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_statistic_1_heading",
+      "verbose_name": "Stat 1 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_statistic_1_smallprint",
+      "verbose_name": "Stat 1 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_statistic_2_number",
+      "verbose_name": "Stat 2 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_statistic_2_heading",
+      "verbose_name": "Stat 2 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_statistic_2_smallprint",
+      "verbose_name": "Stat 2 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_statistic_3_number",
+      "verbose_name": "Stat 3 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_statistic_3_heading",
+      "verbose_name": "Stat 3 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_statistic_3_smallprint",
+      "verbose_name": "Stat 3 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_statistic_4_number",
+      "verbose_name": "Stat 4 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_statistic_4_heading",
+      "verbose_name": "Stat 4 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_statistic_4_smallprint",
+      "verbose_name": "Stat 4 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_statistic_5_number",
+      "verbose_name": "Stat 5 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_statistic_5_heading",
+      "verbose_name": "Stat 5 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_statistic_5_smallprint",
+      "verbose_name": "Stat 5 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_statistic_6_number",
+      "verbose_name": "Stat 6 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_statistic_6_heading",
+      "verbose_name": "Stat 6 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_4_statistic_6_smallprint",
+      "verbose_name": "Stat 6 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_icon",
+      "verbose_name": "Industry icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_title",
+      "verbose_name": "Industry title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_teaser",
+      "verbose_name": "Industry teaser",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_subsection_1_icon",
+      "verbose_name": "Subsection 1 icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_subsection_1_heading",
+      "verbose_name": "Subsection 1 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_subsection_1_body",
+      "verbose_name": "Subsection 1 body",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_subsection_2_icon",
+      "verbose_name": "Subsection 2 icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_subsection_2_heading",
+      "verbose_name": "Subsection 2 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_subsection_2_body",
+      "verbose_name": "Subsection 2 body",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_subsection_3_icon",
+      "verbose_name": "Subsection 2 icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_subsection_3_heading",
+      "verbose_name": "Subsection 2 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_subsection_3_body",
+      "verbose_name": "Subsection 2 body",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_case_study_hero_image",
+      "verbose_name": "Case study hero",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_case_study_button_text",
+      "verbose_name": "Case study button text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_case_study_button_link",
+      "verbose_name": "Case study button link",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_case_study_title",
+      "verbose_name": "Case study title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_case_study_description",
+      "verbose_name": "Case study description",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_cta_1_link",
+      "verbose_name": "Cta link 1",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_cta_1_title",
+      "verbose_name": "Cta title 1",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_cta_2_link",
+      "verbose_name": "Cta link 2",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_cta_2_title",
+      "verbose_name": "Cta title 2",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_cta_3_link",
+      "verbose_name": "Cta link 3",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_cta_3_title",
+      "verbose_name": "Cta title 3",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_statistic_1_number",
+      "verbose_name": "Stat 1 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_statistic_1_heading",
+      "verbose_name": "Stat 1 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_statistic_1_smallprint",
+      "verbose_name": "Stat 1 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_statistic_2_number",
+      "verbose_name": "Stat 2 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_statistic_2_heading",
+      "verbose_name": "Stat 2 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_statistic_2_smallprint",
+      "verbose_name": "Stat 2 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_statistic_3_number",
+      "verbose_name": "Stat 3 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_statistic_3_heading",
+      "verbose_name": "Stat 3 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_statistic_3_smallprint",
+      "verbose_name": "Stat 3 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_statistic_4_number",
+      "verbose_name": "Stat 4 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_statistic_4_heading",
+      "verbose_name": "Stat 4 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_statistic_4_smallprint",
+      "verbose_name": "Stat 4 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_statistic_5_number",
+      "verbose_name": "Stat 5 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_statistic_5_heading",
+      "verbose_name": "Stat 5 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_statistic_5_smallprint",
+      "verbose_name": "Stat 5 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_statistic_6_number",
+      "verbose_name": "Stat 6 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_statistic_6_heading",
+      "verbose_name": "Stat 6 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_5_statistic_6_smallprint",
+      "verbose_name": "Stat 6 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_icon",
+      "verbose_name": "Industry icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_title",
+      "verbose_name": "Industry title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_teaser",
+      "verbose_name": "Industry teaser",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_subsection_1_icon",
+      "verbose_name": "Subsection 1 icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_subsection_1_heading",
+      "verbose_name": "Subsection 1 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_subsection_1_body",
+      "verbose_name": "Subsection 1 body",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_subsection_2_icon",
+      "verbose_name": "Subsection 2 icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_subsection_2_heading",
+      "verbose_name": "Subsection 2 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_subsection_2_body",
+      "verbose_name": "Subsection 2 body",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_subsection_3_icon",
+      "verbose_name": "Subsection 2 icon",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_subsection_3_heading",
+      "verbose_name": "Subsection 2 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_subsection_3_body",
+      "verbose_name": "Subsection 2 body",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_case_study_hero_image",
+      "verbose_name": "Case study hero",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_case_study_button_text",
+      "verbose_name": "Case study button text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_case_study_button_link",
+      "verbose_name": "Case study button link",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_case_study_title",
+      "verbose_name": "Case study title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_case_study_description",
+      "verbose_name": "Case study description",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_cta_1_link",
+      "verbose_name": "Cta link 1",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_cta_1_title",
+      "verbose_name": "Cta title 1",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_cta_2_link",
+      "verbose_name": "Cta link 2",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_cta_2_title",
+      "verbose_name": "Cta title 2",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_cta_3_link",
+      "verbose_name": "Cta link 3",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_cta_3_title",
+      "verbose_name": "Cta title 3",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_statistic_1_number",
+      "verbose_name": "Stat 1 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_statistic_1_heading",
+      "verbose_name": "Stat 1 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_statistic_1_smallprint",
+      "verbose_name": "Stat 1 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_statistic_2_number",
+      "verbose_name": "Stat 2 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_statistic_2_heading",
+      "verbose_name": "Stat 2 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_statistic_2_smallprint",
+      "verbose_name": "Stat 2 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_statistic_3_number",
+      "verbose_name": "Stat 3 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_statistic_3_heading",
+      "verbose_name": "Stat 3 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_statistic_3_smallprint",
+      "verbose_name": "Stat 3 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_statistic_4_number",
+      "verbose_name": "Stat 4 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_statistic_4_heading",
+      "verbose_name": "Stat 4 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_statistic_4_smallprint",
+      "verbose_name": "Stat 4 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_statistic_5_number",
+      "verbose_name": "Stat 5 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_statistic_5_heading",
+      "verbose_name": "Stat 5 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_statistic_5_smallprint",
+      "verbose_name": "Stat 5 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_statistic_6_number",
+      "verbose_name": "Stat 6 number",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_statistic_6_heading",
+      "verbose_name": "Stat 6 heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.accordion_6_statistic_6_smallprint",
+      "verbose_name": "Stat 6 smallprint",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.fact_sheet_title",
+      "verbose_name": "Title for 'doing business in' section",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.fact_sheet_teaser",
+      "verbose_name": "Summary for 'doing business in' section",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.fact_sheet_column_1_title",
+      "verbose_name": "Title for 'tax and customs'",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.fact_sheet_column_1_teaser",
+      "verbose_name": "Summary for 'tax and customs'",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.fact_sheet_column_1_body",
+      "verbose_name": "Detailed text for 'tax and customs'",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": "Use H4 (####) for each sub category heading. Maximum five sub categories. Aim for 50 words each."
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.fact_sheet_column_2_title",
+      "verbose_name": "Title for 'protecting your business'",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.fact_sheet_column_2_teaser",
+      "verbose_name": "Summary for 'protecting your business'",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.fact_sheet_column_2_body",
+      "verbose_name": "Detailed text for 'protecting your business'",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": "Use H4 (####) for each sub category heading. Maximum five sub categories. Aim for 50 words each."
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.help_market_guide_cta_link",
+      "verbose_name": "Gov.uk country guide url",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.related_page_one",
+      "verbose_name": "Related page one",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.related_page_two",
+      "verbose_name": "Related page two",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "export_readiness.CountryGuidePage.related_page_three",
+      "verbose_name": "Related page three",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    }
+  ],
+  "great_international.InternationalArticleListingPage": [
+    {
+      "name": "great_international.InternationalArticleListingPage.landing_page_title",
+      "verbose_name": "Landing page title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalArticleListingPage.hero_image",
+      "verbose_name": "Hero image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalArticleListingPage.hero_teaser",
+      "verbose_name": "Hero teaser",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalArticleListingPage.list_teaser",
+      "verbose_name": "List teaser",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalArticleListingPage.tags",
+      "verbose_name": "Tags",
+      "type": "modelcluster.fields.ParentalManyToManyField",
+      "help_text": ""
+    }
+  ],
+  "great_international.InternationalCuratedTopicLandingPage": [
+    {
+      "name": "great_international.InternationalCuratedTopicLandingPage.display_title",
+      "verbose_name": "Display title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCuratedTopicLandingPage.hero_image",
+      "verbose_name": "Hero image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCuratedTopicLandingPage.teaser",
+      "verbose_name": "Teaser",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCuratedTopicLandingPage.feature_section_heading",
+      "verbose_name": "Feature section heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCuratedTopicLandingPage.feature_one_heading",
+      "verbose_name": "Feature one heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCuratedTopicLandingPage.feature_one_image",
+      "verbose_name": "Image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCuratedTopicLandingPage.feature_one_content",
+      "verbose_name": "Content",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCuratedTopicLandingPage.feature_two_heading",
+      "verbose_name": "Feature two heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCuratedTopicLandingPage.feature_two_image",
+      "verbose_name": "Image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCuratedTopicLandingPage.feature_two_content",
+      "verbose_name": "Content",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCuratedTopicLandingPage.feature_three_heading",
+      "verbose_name": "Feature three heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCuratedTopicLandingPage.feature_three_image",
+      "verbose_name": "Image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCuratedTopicLandingPage.feature_three_url",
+      "verbose_name": "Url",
+      "type": "django.db.models.fields.URLField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCuratedTopicLandingPage.feature_four_heading",
+      "verbose_name": "Feature four heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCuratedTopicLandingPage.feature_four_image",
+      "verbose_name": "Image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCuratedTopicLandingPage.feature_four_url",
+      "verbose_name": "Url",
+      "type": "django.db.models.fields.URLField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCuratedTopicLandingPage.feature_five_heading",
+      "verbose_name": "Feature five heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCuratedTopicLandingPage.feature_five_image",
+      "verbose_name": "Image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCuratedTopicLandingPage.feature_five_url",
+      "verbose_name": "Url",
+      "type": "django.db.models.fields.URLField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalCuratedTopicLandingPage.tags",
+      "verbose_name": "Tags",
+      "type": "modelcluster.fields.ParentalManyToManyField",
+      "help_text": ""
+    }
+  ],
+  "great_international.InternationalGuideLandingPage": [
+    {
+      "name": "great_international.InternationalGuideLandingPage.display_title",
+      "verbose_name": "Display title",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalGuideLandingPage.hero_image",
+      "verbose_name": "Hero image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalGuideLandingPage.teaser",
+      "verbose_name": "Teaser",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalGuideLandingPage.section_one_content",
+      "verbose_name": "Content",
+      "type": "core.model_fields.MarkdownField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalGuideLandingPage.section_one_image",
+      "verbose_name": "Image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalGuideLandingPage.section_one_image_caption",
+      "verbose_name": "Image caption",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalGuideLandingPage.section_two_heading",
+      "verbose_name": "Heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalGuideLandingPage.section_two_teaser",
+      "verbose_name": "Teaser",
+      "type": "django.db.models.fields.TextField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalGuideLandingPage.section_two_button_text",
+      "verbose_name": "Button text",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalGuideLandingPage.section_two_button_url",
+      "verbose_name": "Button url",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalGuideLandingPage.section_two_image",
+      "verbose_name": "Image",
+      "type": "django.db.models.fields.related.ForeignKey",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalGuideLandingPage.guides_section_heading",
+      "verbose_name": "Section heading",
+      "type": "django.db.models.fields.CharField",
+      "help_text": ""
+    },
+    {
+      "name": "great_international.InternationalGuideLandingPage.tags",
+      "verbose_name": "Tags",
+      "type": "modelcluster.fields.ParentalManyToManyField",
+      "help_text": ""
+    }
+  ]
+}
