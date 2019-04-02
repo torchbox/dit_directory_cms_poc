@@ -7,7 +7,28 @@ from wagtail.core.blocks import (
     StreamBlock,
     StructBlock,
     TextBlock,
+    ListBlock,
 )
+
+
+class OpportunityListBlock(StreamBlock):
+    panels = ListBlock(
+        StructBlock(
+            [
+                ("title", CharBlock()),
+                (
+                    "body",
+                    RichTextBlock(features=["bold", "italic", "ol", "ul", "link"]),
+                ),
+            ],
+            label="Panel",
+        )
+    )
+
+    class Meta:
+        icon = "help"
+        # template = 'blocks/accordion.html'
+        help_text = "Block block block"
 
 
 class ImageBlock(StructBlock):

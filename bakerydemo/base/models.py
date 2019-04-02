@@ -22,7 +22,7 @@ from wagtail.admin.edit_handlers import HelpPanel
 from wagtail.search import index
 from wagtail.snippets.models import register_snippet
 
-from .blocks import BaseStreamBlock
+from .blocks import BaseStreamBlock, OpportunityListBlock
 
 
 @register_snippet
@@ -175,6 +175,10 @@ class HomePage(Page):
         blank=True, features=["bold", "italic", "link", "document", "document-link"]
     )
 
+    opportunity_list = StreamField(
+        OpportunityListBlock(), verbose_name="Opportunities", blank=True
+    )
+
     # Body section of the HomePage
     body = StreamField(BaseStreamBlock(), verbose_name="Home content block", blank=True)
 
@@ -278,6 +282,7 @@ class HomePage(Page):
         HelpPanel(
             "This is HelpPanel. It can be used to add arbitrary content in the admin UI. <a href='https://www.example.com/'>Completely arbitrary</a>."
         ),
+        StreamFieldPanel("opportunity_list"),
         StreamFieldPanel("body"),
         HelpPanel(content="HelpPanel can have a heading.", heading="That's a heading"),
         MultiFieldPanel(
